@@ -1,0 +1,138 @@
+<title>Painel Estratégico Helitron</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Saira:wght@200;300;400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<div class="orbs" aria-hidden="true">
+  <div class="orb a"></div><div class="orb b"></div>
+  <div class="orb c"></div><div class="orb d"></div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <div class="top-grid">
+      <div>
+        <div class="lock">
+          <svg class="mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <g stroke="#C5964E" stroke-width="3.4" stroke-linecap="square">
+              <path d="M24 3v9M24 36v9M3 24h9M36 24h9"/>
+              <path d="M11 11l6 6M37 11l-6 6M11 37l6-6M37 37l-6-6"/>
+            </g>
+          </svg>
+          <span class="brand">Helitron</span>
+        </div>
+        <h1>Painel Estratégico</h1>
+        <p class="tagline">Mercado, públicos, sazonalidade, concorrência e funil de vendas, reunidos a partir das entregas do Plano de Marketing.</p>
+      </div>
+
+      <svg class="heli" viewBox="0 0 400 180" fill="none" aria-label="Ilustração de helicóptero" role="img">
+        <defs>
+          <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#D8B071"/><stop offset="1" stop-color="#A07644"/>
+          </linearGradient>
+        </defs>
+        <g stroke="url(#gold)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+          <!-- rotor principal -->
+          <g class="blade">
+            <path d="M44 32 Q190 23 336 32" stroke-width="2.6"/>
+            <path d="M72 40 Q190 33 308 24" opacity=".42"/>
+          </g>
+          <circle cx="190" cy="32" r="4.6" fill="#C5964E" stroke="none"/>
+          <path d="M190 37v15"/>
+          <!-- fuselagem -->
+          <path d="M116 96c0-24 24-44 54-46h44c24 0 38 14 44 32v14c-20 14-66 18-100 16-28-2-42-6-42-16z"/>
+          <!-- vidro -->
+          <path d="M129 92c2-18 17-31 39-33h23v35z" opacity=".55"/>
+          <!-- cauda -->
+          <path d="M256 80l74 4v12l-74 4z"/>
+          <path d="M326 86l22-40 14 4-22 44z"/>
+          <circle cx="352" cy="56" r="17" opacity=".55"/>
+          <g class="tblade" opacity=".8">
+            <path d="M352 41v30"/><path d="M339 49l26 14"/><path d="M365 49l-26 14"/>
+          </g>
+          <!-- esquis -->
+          <path d="M152 112l-9 25M226 110l9 27"/>
+          <path d="M118 138h148"/>
+          <path d="M118 138c-10 0-15-6-13-12"/>
+          <!-- linhas de velocidade -->
+          <path d="M30 108h38M18 122h32M44 92h26" opacity=".3" stroke-width="1.6"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Seções do painel">
+  <div class="wrap"><div class="tabs" id="tabs" role="tablist"></div></div>
+</nav>
+
+<main class="wrap">
+
+  <!-- VISÃO GERAL -->
+  <section class="panel" id="p-visao" role="tabpanel" aria-labelledby="t-visao">
+    <p class="eyebrow">Visão geral</p>
+    <h2>Onde a Helitron entra</h2>
+    <p class="lead">O Distrito Federal e Goiás somam <b>168 helicópteros</b> e <b>46 helipontos</b>, e <b>nenhum helicentro em operação</b>. A Helitron nasce para ocupar essa lacuna com estrutura própria, atendendo cinco frentes comerciais e uma frente de atração de talentos.</p>
+
+    <div class="cards c-4">
+      <div class="card stat"><span class="v">0</span><span class="k">helicentros em operação no DF e em Goiás</span></div>
+      <div class="card stat"><span class="v">168</span><span class="k">helicópteros na área de atuação</span></div>
+      <div class="card stat"><span class="v">3</span><span class="k">bases previstas, com hangar de 10 a 50 aeronaves</span></div>
+      <div class="card stat"><span class="v">30<small style="font-size:.4em;letter-spacing:.06em"> MIN</small></span><span class="k">prontidão operacional</span></div>
+    </div>
+
+    <div class="cards c-2">
+      <div class="card">
+        <h3>As seis frentes</h3>
+        <ul class="ul">
+          <li><b>Lazer.</b> Datas comemorativas e celebrações. Decisão emocional, validada de forma racional.</li>
+          <li><b>Viagens.</b> Destinos próximos a Brasília. O cliente compra tempo e conforto.</li>
+          <li><b>Negócios.</b> Deslocamento executivo planejado, urgente ou recorrente.</li>
+          <li><b>Agronegócio.</b> Vistoria de propriedades e roteiros com múltiplas paradas.</li>
+          <li><b>Aeromédico.</b> Transferência de pacientes e transporte de órgãos, por credenciamento.</li>
+          <li><b>Pilotos.</b> Frente de atração de talentos, e não de venda.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Estrutura que sustenta a oferta</h3>
+        <ul class="ul">
+          <li><b>Helicentro no Altiplano Leste.</b> Hangar inicial para 10 aeronaves, com plano de expansão para até 50, sala VIP, hospedagem e descanso de tripulação, área técnica, manutenção e abastecimento.</li>
+          <li><b>Heliponto da Ponte JK.</b> Embarque voltado ao turismo, no Lago Paranoá.</li>
+          <li><b>Heliponto do Mané Garrincha.</b> Área de 3.600 metros quadrados, com vocação para eventos e transporte aeromédico.</li>
+          <li><b>Prontidão em até 30 minutos</b>, sem fila, sem raio X e sem espera em voo circular.</li>
+        </ul>
+        <span class="src">Fontes: Ata de Reunião de 16/09/2026 e apresentação institucional da Helitron.</span>
+      </div>
+    </div>
+
+    <div class="insight">
+      <b>Leitura do painel</b>
+      <p>Os dados de mercado vêm da apresentação institucional da Helitron, de 2022, e o movimento do aeroporto vai até 2020. Cada gráfico traz o ano na legenda. Não há dado de operação, porque a empresa ainda não opera. Indicadores de desempenho entram na etapa de metrificação dos objetivos, prevista para novembro de 2026.</p>
+    </div>
+  </section>
+
+  <section class="panel" id="p-mercado" role="tabpanel" aria-labelledby="t-mercado" hidden></section>
+  <section class="panel" id="p-publicos" role="tabpanel" aria-labelledby="t-publicos" hidden></section>
+  <section class="panel" id="p-sazonal" role="tabpanel" aria-labelledby="t-sazonal" hidden></section>
+  <section class="panel" id="p-concorrencia" role="tabpanel" aria-labelledby="t-concorrencia" hidden></section>
+  <section class="panel" id="p-funil" role="tabpanel" aria-labelledby="t-funil" hidden></section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <h4>Pontos de atenção</h4>
+    <ul class="ul">
+      <li>Os dados de mercado são de 2022 e o movimento do aeroporto encerra em 2020, carregando o efeito da pandemia. Vale buscar série mais recente com o cliente antes de usar em apresentação.</li>
+      <li>A matriz de sazonalidade é um mapeamento qualitativo da consultoria, construído a partir dos gatilhos de cada público. Não representa volume medido.</li>
+      <li>Os números do estudo de viabilidade do empreendimento não integram este painel, por tratarem de informação sob sigilo registrado na Ata de Reunião.</li>
+      <li>A High Class aparece como parceira no Lazer e como concorrente em Negócios. As duas condições coexistem porque a empresa atua em frentes diferentes.</li>
+      <li>Tempos de voo usados em conteúdo comparativo precisam ser validados com a operação antes de qualquer publicação.</li>
+    </ul>
+    <p class="meta">Projetos Consultoria Integrada · Plano de Marketing Helitron · Brasília, outubro de 2026</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
